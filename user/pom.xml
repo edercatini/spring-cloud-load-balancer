@@ -12,7 +12,7 @@
 
     <groupId>com.ec.spring.cloud</groupId>
     <artifactId>spring-cloud-loadbalancer-user</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.1</version>
     <name>spring-cloud-load-balancer-user</name>
 
     <properties>

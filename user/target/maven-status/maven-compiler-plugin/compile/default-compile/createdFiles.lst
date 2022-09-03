@@ -1,0 +1,5 @@
+hello/controller/UserController.class
+hello/configuration/SayHelloConfiguration.class
+hello/UserApplication.class
+hello/configuration/DemoServiceInstanceListSuppler.class
+hello/configuration/WebClientConfiguration.class
