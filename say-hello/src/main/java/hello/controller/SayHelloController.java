@@ -11,6 +11,8 @@ import java.util.Random;
 @Slf4j
 public class SayHelloController {
 
+    public static final List<String> GREETINGS = List.of("Hi there", "Greetings", "Salutations");
+
     @GetMapping("/")
     public String home() {
         log.info("Access /");
@@ -20,11 +22,10 @@ public class SayHelloController {
     @GetMapping("/greeting")
     public String greet() {
         log.info("Access /greeting");
-        List<String> greetings = List.of("Hi there", "Greetings", "Salutations");
 
         Random random = new Random();
-        int randomNumber = random.nextInt(greetings.size());
+        int randomNumber = random.nextInt(GREETINGS.size());
 
-        return greetings.get(randomNumber);
+        return GREETINGS.get(randomNumber);
     }
 }
